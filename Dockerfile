@@ -14,6 +14,9 @@ WORKDIR .
 # Copy the dependencies file to the working directory
 COPY requirements.txt .
 
+
+COPY static/logos ./static/logos
+
 # Install any dependencies
 RUN pip install -r requirements.txt
 
