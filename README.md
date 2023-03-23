@@ -9,6 +9,7 @@ APP_SECRET_KEY=
 OPEN_AI_KEY=
 WEBSITE_URL=
 AWS_ECR_REPO_URL=
+S3_BUCKET_NAME=
 
 
 you will also need to have aws cli logged in as this will need to refference your aws credentials
