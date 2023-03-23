@@ -1,6 +1,4 @@
 *.pyc
 .env
-
 *.ipynb
-
 client_secret.json
